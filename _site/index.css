@@ -1,14 +1,43 @@
 * {
   box-sizing: border-box;
 }
-
+:root {
+  --dark-background-color: #111111;
+  --dark-text-color: #eeeeee;
+}
 body {
-  background: white;
-  padding: 5px;
-  height: 100vh;
-  margin: 0;
+  --background-color: white;
+  --text-color: #111111;
   font-family: "Roboto Mono", monospace;
+  padding: 40px;
+  margin: auto;
   font: 500 100%;
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
+body.theme-dark {
+  --background-color: var(--dark-background-color);
+  --text-color: var(--dark-text-color);
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body.theme-auto {
+    --background-color: var(--dark-background-color);
+    --text-color: var(--dark-text-color);
+  }
+}
+.select__input {
+  color: var(--text-color);
+  margin: 20px;
+  padding: 20px 14px;
+  border: none;
+  background: none;
+  outline: none;
+  font-family: var(--font-family);
+  background-color:transparent;
+
 }
 
 .page-wrap {
@@ -46,7 +75,7 @@ img {
 }
 
 a {
-  color: black;
+  color: var(--text-color);
 }
 
 a.github:link {
