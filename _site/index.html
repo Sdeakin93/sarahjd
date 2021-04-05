@@ -29,7 +29,7 @@
                
                    <div class="contact">
                           <h2>Get in contact</h2>
-                          <a href="https://github.com/Sdeakin93" class="github" target="_blank">Github</a>
+                          <a href="https://github.com/sarahjarquedeakin" class="github" target="_blank">Github</a>
                           <a href="https://twitter.com/sjarquedeakin" class="twitter" target="_blank">Twitter</a>
                           <a href="https://www.instagram.com/sarahjarquedeakin/" class="instagram" target="_blank">Instagram</a>
                           <a href="https://www.linkedin.com/in/sarah-deakin-0679aa98/" class="linkedin" target="_blank">LinkedIn</a>
@@ -40,12 +40,13 @@
                       <select class="select__input" id="selTheme">
                         <option value="light">Light</option>
                         <option value="dark">Dark</option>
+                        <option value="auto">Auto</option>
                     </select>
               </div>
           </div>
           <script>
               function applyTheme(theme) {
-                  document.body.classList.remove("theme-light", "theme-dark");
+                  document.body.classList.remove("theme-auto", "theme-light", "theme-dark");
                   document.body.classList.add(`theme-${theme}`);
               }
               document.addEventListener("DOMContentLoaded", () => {
