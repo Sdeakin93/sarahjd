@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #e4e4e4;
+  padding: 5px;
+  height: 100vh;
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+  font: 500 100%;
+}
+
+.page-wrap {
+  background: white;
+  height: calc(100vh - 10px);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.33);
+  display: grid;
+  grid-template-columns: minmax(10px, 1fr) minmax(10px, 3fr);
+  grid-template-rows: min-content min-content 1fr min-content;
+  gap: 1px;
+}
+.page-wrap > * {
+  padding: 1rem;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .page-wrap {
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+  }
+  .page-wrap > * {
+    grid-column: 1/-1 !important;
+    grid-row: auto !important;
+  }
+}
+
+.page-sidebar {
+  grid-column: 1/2;
+  grid-row: 2/2;
+
+}
+img {
+  border-radius: 50%;
+  max-width: 200px;
+}
+.page-main {
+  grid-column: 2/2;
+}
+
+a {
+  color: black;
+}
+
+a.github:link {
+  text-decoration: none;
+}
+
+a.github:visited {
+  text-decoration: none;
+}
+
+a.github:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #6E6B9F;
+  text-decoration-thickness: 0.5em;
+}
+
+a.twitter:link {
+  text-decoration: none;
+}
+
+a.twitter:visited {
+  text-decoration: none;
+}
+
+a.twitter:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #7397AA;
+  text-decoration-thickness: 0.5em;
+}
+
+a.instagram:link {
+  text-decoration: none;
+}
+
+a.instagram:visited {
+  text-decoration: none;
+}
+
+a.instagram:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #87B191;
+  text-decoration-thickness: 0.5em;
+}
+
+a.linkedin:link {
+  text-decoration: none;
+}
+
+a.linkedin:visited {
+  text-decoration: none;
+}
+
+a.linkedin:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #D8D7B9;
+  text-decoration-thickness: 0.5em;
+}
+
+a.podcast:link {
+  text-decoration: none;
+}
+
+a.podcast:visited {
+  text-decoration: none;
+}
+
+a.podcast:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #CDAB81;
+  text-decoration-thickness: 0.5em;
+}
+
+a.email:link {
+  text-decoration: none;
+}
+
+a.email:visited {
+  text-decoration: none;
+}
+
+a.email:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #C17E9B;
+  text-decoration-thickness: 0.5em;
+}
+
+/*# sourceMappingURL=index.css.map */
