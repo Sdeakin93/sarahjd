@@ -3,7 +3,7 @@
 }
 
 body {
-  background: #e4e4e4;
+  background: white;
   padding: 5px;
   height: 100vh;
   margin: 0;
@@ -14,10 +14,7 @@ body {
 .page-wrap {
   background: white;
   height: calc(100vh - 10px);
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.33);
-  display: grid;
-  grid-template-columns: minmax(10px, 1fr) minmax(10px, 3fr);
-  grid-template-rows: min-content min-content 1fr min-content;
+  display: initial;
   gap: 1px;
 }
 .page-wrap > * {
