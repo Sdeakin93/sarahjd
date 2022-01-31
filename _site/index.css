@@ -6,7 +6,7 @@
   --dark-text-color: #eeeeee;
 }
 body {
-  --background-color: white;
+  --background-color: #e8d9ea;
   --text-color: #111111;
   font-family: "Roboto Mono", monospace;
   padding: 40px;
@@ -20,7 +20,6 @@ body.theme-dark {
   --background-color: var(--dark-background-color);
   --text-color: var(--dark-text-color);
 }
-
 
 @media (prefers-color-scheme: dark) {
   body.theme-auto {
@@ -36,8 +35,7 @@ body.theme-dark {
   background: none;
   outline: none;
   font-family: var(--font-family);
-  background-color:transparent;
-
+  background-color: transparent;
 }
 
 .page-wrap {
@@ -64,7 +62,6 @@ body.theme-dark {
 .page-sidebar {
   grid-column: 1/2;
   grid-row: 2/2;
-
 }
 img {
   border-radius: 50%;
@@ -88,7 +85,7 @@ a.github:visited {
 
 a.github:hover {
   text-decoration-line: underline;
-  text-decoration-color: #6E6B9F;
+  text-decoration-color: #6e6b9f;
   text-decoration-thickness: 0.5em;
 }
 
@@ -102,7 +99,7 @@ a.twitter:visited {
 
 a.twitter:hover {
   text-decoration-line: underline;
-  text-decoration-color: #7397AA;
+  text-decoration-color: #7397aa;
   text-decoration-thickness: 0.5em;
 }
 
@@ -116,7 +113,7 @@ a.instagram:visited {
 
 a.instagram:hover {
   text-decoration-line: underline;
-  text-decoration-color: #87B191;
+  text-decoration-color: #87b191;
   text-decoration-thickness: 0.5em;
 }
 
@@ -130,7 +127,7 @@ a.linkedin:visited {
 
 a.linkedin:hover {
   text-decoration-line: underline;
-  text-decoration-color: #D8D7B9;
+  text-decoration-color: #d8d7b9;
   text-decoration-thickness: 0.5em;
 }
 
@@ -144,7 +141,7 @@ a.podcast:visited {
 
 a.podcast:hover {
   text-decoration-line: underline;
-  text-decoration-color: #CDAB81;
+  text-decoration-color: #cdab81;
   text-decoration-thickness: 0.5em;
 }
 
@@ -158,7 +155,7 @@ a.email:visited {
 
 a.email:hover {
   text-decoration-line: underline;
-  text-decoration-color: #C17E9B;
+  text-decoration-color: #c17e9b;
   text-decoration-thickness: 0.5em;
 }
 
