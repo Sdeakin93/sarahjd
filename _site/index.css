@@ -160,3 +160,7 @@ a.email:hover {
 }
 
 /*# sourceMappingURL=index.css.map */
+.header {
+  max-width: 100%;
+  display: block;
+}
