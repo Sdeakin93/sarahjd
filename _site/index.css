@@ -71,6 +71,11 @@ body.theme-dark {
   grid-column: 2/2;
 }
 
+.header {
+  max-width: 100%;
+  display: block;
+}
+
 a {
   color: var(--text-color);
 }
@@ -160,7 +165,3 @@ a.email:hover {
 }
 
 /*# sourceMappingURL=index.css.map */
-.header {
-  max-width: 100%;
-  display: block;
-}
