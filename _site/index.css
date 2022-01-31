@@ -63,7 +63,7 @@ body.theme-dark {
   grid-column: 1/2;
   grid-row: 2/2;
 }
-img {
+.icon {
   border-radius: 50%;
   max-width: 200px;
 }
