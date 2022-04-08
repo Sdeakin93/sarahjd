@@ -1,75 +1,145 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<link rel="preconnect" href="https://fonts.gstatic.com"> 
-			<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Mono&display=swap" rel="stylesheet">
-			<title>Sarah Jarque-Deakin</title>
-			<link rel="stylesheet" href="index.css"><!-- Global site tag (gtag.js) - Google Analytics -->
-			<script async src="https://www.googletagmanager.com/gtag/js?id=G-5SVF1YW809"></script>
-			<script>
-					window.dataLayer = window.dataLayer || [];
-					function gtag(){dataLayer.push(arguments);}
-					gtag('js', new Date());
-			
-					gtag('config', 'G-5SVF1YW809');
-			</script>
-	</head>
-	<body>
-		<div class="page-wrap">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sarah Jarque-Deakin</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-5SVF1YW809"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-			<img class="header" src="header.png" alt="a picture of Sarah"></img>
-			<main class="page-main">
-				<h1>Hey, I'm Sarah!<h1>
-					<h2>I am a Growth Web Developer based out of Hoboken, NJ.</h2>
-					<h4>About Me</h4>
-					<p>I am passionate about personal development, and I believe that with proper support, an individual can achieve anything they wish to within a company.
-					</p>
-					<h4>Skills</h4>
-					<p>Javascript, HTML, CSS, Gatsby, React, NodeJS, AWS, Google Analytics, Google Search Console, Git, Podcasting, Content Creation </p>
-					<h4>Work Experience</h4>
-						<p>Catch<br/><br/>
-							<i><ul>Improved User Growth through organic traffic increase, web UX and dedicated content</ul>
-								<ul>
-									Developed a Blog in React in support of dedicated content to further drive organic traffic</ul>
-									<ul>
-										Increased Lighthouse scores to from 66 to 91 for Performance total and from 82 to 100 for SEO.</ul>
-										<ul>
-											Doubled the amount of keywords we ranked for since beginning in the role, drove organic SEO results through website optimization and content management.</ul>  </i>
-						<p>Starling Bank<br/><br/>
-							<i>When I joined Starling in 2017, I joined as a member of the customer service team - I moved then into events marketing, then to SEO, and into my current role as a web developer. Having a variety of roles at Starling has allowed me to work amongst different teams, and get a much wider understanding of the entire company. I understand our customers, and their needs from our website. I work every day in JS, with a focus on React, and working with Gatsby.<br/>Starling is a UK-based digital bank, disrupting the financial services industry. Founded in 2014 by Anne Boden, it was granted a banking licence by the Bank of England in July 2016 and launched its first mobile personal current account in May 2017 available as a mobile app for both iOS and Android phones.</i>
-					<h4>Personal projects</h4>
-						<a href="http://infallible-raman-c574a0.netlify.app" class="email" target="_blank">A Peloton API tool allowing users to search and sort through their own data.</a>
-			</main>
-				<aside class="page-sidebar">
-						<img class="icon" src="icon.png" alt="a picture of Sarah"></img>
-						<div class="contact">
-										<h2>Get in contact</h2>
-										<a href="https://github.com/sdeakin93" class="github" target="_blank">Github</a>
-										<a href="https://twitter.com/sjarquedeakin" class="twitter" target="_blank">Twitter</a>
-										<a href="https://www.instagram.com/sarahjarquedeakin/" class="instagram" target="_blank">Instagram</a>
-										<a href="https://www.linkedin.com/in/sarah-deakin-0679aa98/" class="linkedin" target="_blank">LinkedIn</a>
-										<a href="/Sarah_CV.pdf" class="email" target="_blank">Resume</a>
-										<a href="mailto:sarahjarquedeakin@gmail.com" class="email" target="_blank">Email</a>
-								</div>
-								
-								<select class="select__input" id="selTheme">
-								<option value="auto">Auto</option>
-								<option value="light">Light</option>
-								<option value="dark">Dark</option>
-						</select>
-				</div>
-		</div>
-			<script>
-					function applyTheme(theme) {
-							document.body.classList.remove("theme-auto", "theme-light", "theme-dark");
-							document.body.classList.add(`theme-${theme}`);
-					}
-					document.addEventListener("DOMContentLoaded", () => {
-							document.querySelector("#selTheme").addEventListener("change", function() {
-									applyTheme(this.value);
-							}); 
-					});
-			</script>
-</body>
+      gtag("config", "G-5SVF1YW809");
+    </script>
+  </head>
+  <body>
+    <main class="page-main">
+      <h1 class="title-header">Sarah Jarque-Deakin</h1>
+      <div class="about">
+        <b>I am a Growth Web Developer based out of Hoboken, NJ.</b>
+        <p>
+          You can find me mostly building front end components with an SEO
+          focus. You can also find me hanging out with my wife and two cats,
+          watching Formula 1.
+        </p>
+      </div>
+      <h2 class="work-header">Work and Personal Projects</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <a href="https://catch.co" target="_blank" rel="noopener noreferrer">
+            <h3 class="portfolio-title">Catch</h3>
+            <div class="portfolio-text">
+              <i>May 2021 - Present</i>
+              <ul>
+                <li>SEO</li>
+                <li>Organic Growth</li>
+                <li>Content Production</li>
+                <li>React</li>
+                <li>Javascript</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+        <div class="portfolio-item">
+          <a
+            href="https://starlingbank.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h3 class="portfolio-title">Starling Bank</h3>
+            <div class="portfolio-text">
+              <i>October 2017 - April 2021</i>
+              <ul>
+                <li>Web Development</li>
+                <li>SEO</li>
+                <li>Organic Growth</li>
+                <li>Content Production</li>
+                <li>React</li>
+                <li>Javascript</li>
+                <li>CSS</li>
+                <li>Events Management</li>
+                <li>Customer Service</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+        <div class="portfolio-item">
+          <a
+            href="http://infallible-raman-c574a0.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h3 class="portfolio-title">API Tool</h3>
+            <div class="portfolio-text">
+              <i
+                >A Peloton API tool allowing users to search and sort through
+                their own data.</i
+              >
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact">
+        <a href="https://github.com/sdeakin93" class="github" target="_blank"
+          >Github</a
+        >
+        <a
+          href="https://twitter.com/sjarquedeakin"
+          class="twitter"
+          target="_blank"
+          >Twitter</a
+        >
+        <a
+          href="https://www.instagram.com/sarahjarquedeakin/"
+          class="instagram"
+          target="_blank"
+          >Instagram</a
+        >
+        <a
+          href="https://www.linkedin.com/in/sarah-deakin-0679aa98/"
+          class="linkedin"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a href="/SJD_final_CV.pdf" class="email" target="_blank">Resume</a>
+        <a
+          href="mailto:sarahjarquedeakin@gmail.com"
+          class="email"
+          target="_blank"
+          >Email</a
+        >
+      </div>
+    </main>
+    <script>
+      function applyTheme(theme) {
+        document.body.classList.remove(
+          "theme-auto",
+          "theme-light",
+          "theme-dark"
+        );
+        document.body.classList.add(`theme-${theme}`);
+      }
+      document.addEventListener("DOMContentLoaded", () => {
+        document
+          .querySelector("#selTheme")
+          .addEventListener("change", function () {
+            applyTheme(this.value);
+          });
+      });
+    </script>
+  </body>
 </html>
