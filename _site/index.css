@@ -308,3 +308,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.personal {
+  color: white;
+}
